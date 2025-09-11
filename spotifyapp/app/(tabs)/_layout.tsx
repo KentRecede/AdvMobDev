@@ -9,11 +9,13 @@ export default function TabLayout() {
         tabBarStyle: { backgroundColor: '#000', borderTopColor: '#222' },
         tabBarActiveTintColor: '#1DB954',
         tabBarInactiveTintColor: '#888',
+
+        // 👇 Enables smooth animation when switching tabs
+        animation: 'shift', // options: 'shift', 'fade', 'none'
       }}
     >
-      {/* Playlist */}
       <Tabs.Screen
-        name="playlist"
+        name="playlists"
         options={{
           title: 'Playlists',
           tabBarIcon: ({ color, size }) => (
@@ -22,7 +24,16 @@ export default function TabLayout() {
         }}
       />
 
-      {/* Settings */}
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="person-outline" size={size} color={color} />
+          ),
+        }}
+      />
+
       <Tabs.Screen
         name="settings"
         options={{
