@@ -2,4 +2,5 @@
 <img width="265" height="573" alt="image" src="https://github.com/user-attachments/assets/71d3b1ba-696d-474c-bec1-711f4035da62" />
 <img width="262" height="572" alt="image" src="https://github.com/user-attachments/assets/f7a0337a-2563-4f7d-9378-4ddee1f4cacd" />
 <img width="276" height="586" alt="image" src="https://github.com/user-attachments/assets/070c53f9-4925-44ed-b317-a92ddcd18635" />
+<img width="276" height="586" alt="image" src="[https://github.com/user-attachments/assets/070c53f9-4925-44ed-b317-a92ddcd18635](https://raw.githubusercontent.com/KentRecede/AdvMobDev/refs/heads/main/geolocation.png)" />
 
